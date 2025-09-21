@@ -1,0 +1,52 @@
+.ranking-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ranking-page header {
+  background: rgba(6, 10, 20, 0.85);
+  border-radius: 20px;
+  border: 1px solid rgba(129, 212, 250, 0.15);
+  padding: 1.5rem;
+}
+
+.ranking-page header h2 {
+  margin: 0;
+}
+
+.ranking-page header p {
+  margin: 0.5rem 0 0;
+  color: rgba(200, 220, 255, 0.7);
+}
+
+.ranking-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.ranking-page article {
+  background: rgba(10, 16, 30, 0.85);
+  border-radius: 18px;
+  border: 1px solid rgba(129, 212, 250, 0.15);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ranking-page article h3 {
+  margin: 0;
+  color: rgba(129, 212, 250, 0.9);
+}
+
+.ranking-page article p {
+  margin: 0;
+  line-height: 1.6;
+  color: rgba(200, 220, 255, 0.75);
+}
+
+.ranking-page article strong {
+  color: #7ef9c8;
+}

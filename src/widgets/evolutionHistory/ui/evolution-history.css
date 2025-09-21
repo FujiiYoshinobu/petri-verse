@@ -1,0 +1,73 @@
+.evolution-history {
+  background: rgba(6, 12, 22, 0.85);
+  border: 1px solid rgba(129, 212, 250, 0.15);
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.evolution-history header h2 {
+  margin: 0;
+}
+
+.evolution-history header p {
+  margin: 0.4rem 0 0;
+  color: rgba(200, 220, 255, 0.7);
+}
+
+.evolution-history ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.evolution-history li {
+  background: rgba(11, 18, 32, 0.9);
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(129, 212, 250, 0.15);
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.evolution-history li.empty {
+  justify-content: center;
+  text-align: center;
+  color: rgba(180, 200, 230, 0.6);
+  display: flex;
+}
+
+.evolution-history__time {
+  font-variant-numeric: tabular-nums;
+  color: rgba(160, 220, 255, 0.8);
+}
+
+.evolution-history li p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.tone-mutation {
+  border-left: 4px solid rgba(126, 249, 200, 0.8);
+}
+
+.tone-predation {
+  border-left: 4px solid rgba(255, 128, 171, 0.8);
+}
+
+.tone-environment {
+  border-left: 4px solid rgba(129, 212, 250, 0.8);
+}
+
+.tone-discovery {
+  border-left: 4px solid rgba(255, 214, 165, 0.8);
+}
